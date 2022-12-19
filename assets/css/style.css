@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -69,6 +70,7 @@ p {
 .page-section {
   padding: 10px;
   margin-right: 90px;
+  width: 75%;
 }
 
 /* About Me section */
@@ -86,7 +88,8 @@ p {
 /* Work section */
 #work-section {
   height: 630px;
-  margin-bottom: 20px;
+  width: 75%;
+  margin-bottom: 60px;
 }
 
 .sub-heading {
@@ -98,7 +101,7 @@ p {
 
 .sidebar-container {
   float: left;
-  width: 18%;
+  width: 25%;
   color:#2a607c;
   border-right: #2a607c solid 4px;
   padding-bottom: 40px;
@@ -124,14 +127,14 @@ p {
 
 #work-sidebar-container {
   clear: both;
-  height: 610px;
+  height: 640px;
 }
 
 .work-container {
   display: grid;
   grid-gap: 14px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 3fr 1fr 1fr;
+  grid-template-rows: 340px 130px 130px;
   grid-template-areas: 
     "surf-report surf-report"
     "led-wall calculator"
@@ -213,7 +216,7 @@ h3 {
 }
 
 h6 {
-  font-size: 0.7vw;
+  font-size: 10px;
 }
 
 #contact-me-sidebar-container {
